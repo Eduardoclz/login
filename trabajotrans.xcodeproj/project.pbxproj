@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DC95B020101555001B787A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC95AF20101555001B787A /* AppDelegate.swift */; };
+		85DC95B220101555001B787A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC95B120101555001B787A /* ViewController.swift */; };
+		85DC95B520101555001B787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC95B320101555001B787A /* Main.storyboard */; };
+		85DC95B720101555001B787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DC95B620101555001B787A /* Assets.xcassets */; };
+		85DC95BA20101555001B787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC95B820101555001B787A /* LaunchScreen.storyboard */; };
+		85DC95C520101555001B787A /* trabajotransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC95C420101555001B787A /* trabajotransTests.swift */; };
+		85DC95D020101556001B787A /* trabajotransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC95CF20101556001B787A /* trabajotransUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85DC95C120101555001B787A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DC95A420101555001B787A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DC95AB20101555001B787A;
+			remoteInfo = trabajotrans;
+		};
+		85DC95CC20101555001B787A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DC95A420101555001B787A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DC95AB20101555001B787A;
+			remoteInfo = trabajotrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85DC95AC20101555001B787A /* trabajotrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trabajotrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DC95AF20101555001B787A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85DC95B120101555001B787A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85DC95B420101555001B787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DC95B620101555001B787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85DC95B920101555001B787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DC95BB20101555001B787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DC95C020101555001B787A /* trabajotransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabajotransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DC95C420101555001B787A /* trabajotransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabajotransTests.swift; sourceTree = "<group>"; };
+		85DC95C620101555001B787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DC95CB20101555001B787A /* trabajotransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabajotransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DC95CF20101556001B787A /* trabajotransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabajotransUITests.swift; sourceTree = "<group>"; };
+		85DC95D120101556001B787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DC95A920101555001B787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95BD20101555001B787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95C820101555001B787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85DC95A320101555001B787A = {
+			isa = PBXGroup;
+			children = (
+				85DC95AE20101555001B787A /* trabajotrans */,
+				85DC95C320101555001B787A /* trabajotransTests */,
+				85DC95CE20101555001B787A /* trabajotransUITests */,
+				85DC95AD20101555001B787A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85DC95AD20101555001B787A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DC95AC20101555001B787A /* trabajotrans.app */,
+				85DC95C020101555001B787A /* trabajotransTests.xctest */,
+				85DC95CB20101555001B787A /* trabajotransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DC95AE20101555001B787A /* trabajotrans */ = {
+			isa = PBXGroup;
+			children = (
+				85DC95AF20101555001B787A /* AppDelegate.swift */,
+				85DC95B120101555001B787A /* ViewController.swift */,
+				85DC95B320101555001B787A /* Main.storyboard */,
+				85DC95B620101555001B787A /* Assets.xcassets */,
+				85DC95B820101555001B787A /* LaunchScreen.storyboard */,
+				85DC95BB20101555001B787A /* Info.plist */,
+			);
+			path = trabajotrans;
+			sourceTree = "<group>";
+		};
+		85DC95C320101555001B787A /* trabajotransTests */ = {
+			isa = PBXGroup;
+			children = (
+				85DC95C420101555001B787A /* trabajotransTests.swift */,
+				85DC95C620101555001B787A /* Info.plist */,
+			);
+			path = trabajotransTests;
+			sourceTree = "<group>";
+		};
+		85DC95CE20101555001B787A /* trabajotransUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85DC95CF20101556001B787A /* trabajotransUITests.swift */,
+				85DC95D120101556001B787A /* Info.plist */,
+			);
+			path = trabajotransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DC95AB20101555001B787A /* trabajotrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DC95D420101556001B787A /* Build configuration list for PBXNativeTarget "trabajotrans" */;
+			buildPhases = (
+				85DC95A820101555001B787A /* Sources */,
+				85DC95A920101555001B787A /* Frameworks */,
+				85DC95AA20101555001B787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trabajotrans;
+			productName = trabajotrans;
+			productReference = 85DC95AC20101555001B787A /* trabajotrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85DC95BF20101555001B787A /* trabajotransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DC95D720101556001B787A /* Build configuration list for PBXNativeTarget "trabajotransTests" */;
+			buildPhases = (
+				85DC95BC20101555001B787A /* Sources */,
+				85DC95BD20101555001B787A /* Frameworks */,
+				85DC95BE20101555001B787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DC95C220101555001B787A /* PBXTargetDependency */,
+			);
+			name = trabajotransTests;
+			productName = trabajotransTests;
+			productReference = 85DC95C020101555001B787A /* trabajotransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85DC95CA20101555001B787A /* trabajotransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DC95DA20101556001B787A /* Build configuration list for PBXNativeTarget "trabajotransUITests" */;
+			buildPhases = (
+				85DC95C720101555001B787A /* Sources */,
+				85DC95C820101555001B787A /* Frameworks */,
+				85DC95C920101555001B787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DC95CD20101555001B787A /* PBXTargetDependency */,
+			);
+			name = trabajotransUITests;
+			productName = trabajotransUITests;
+			productReference = 85DC95CB20101555001B787A /* trabajotransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DC95A420101555001B787A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maestro;
+				TargetAttributes = {
+					85DC95AB20101555001B787A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					85DC95BF20101555001B787A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DC95AB20101555001B787A;
+					};
+					85DC95CA20101555001B787A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DC95AB20101555001B787A;
+					};
+				};
+			};
+			buildConfigurationList = 85DC95A720101555001B787A /* Build configuration list for PBXProject "trabajotrans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DC95A320101555001B787A;
+			productRefGroup = 85DC95AD20101555001B787A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DC95AB20101555001B787A /* trabajotrans */,
+				85DC95BF20101555001B787A /* trabajotransTests */,
+				85DC95CA20101555001B787A /* trabajotransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DC95AA20101555001B787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC95BA20101555001B787A /* LaunchScreen.storyboard in Resources */,
+				85DC95B720101555001B787A /* Assets.xcassets in Resources */,
+				85DC95B520101555001B787A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95BE20101555001B787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95C920101555001B787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DC95A820101555001B787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC95B220101555001B787A /* ViewController.swift in Sources */,
+				85DC95B020101555001B787A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95BC20101555001B787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC95C520101555001B787A /* trabajotransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC95C720101555001B787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC95D020101556001B787A /* trabajotransUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85DC95C220101555001B787A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DC95AB20101555001B787A /* trabajotrans */;
+			targetProxy = 85DC95C120101555001B787A /* PBXContainerItemProxy */;
+		};
+		85DC95CD20101555001B787A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DC95AB20101555001B787A /* trabajotrans */;
+			targetProxy = 85DC95CC20101555001B787A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85DC95B320101555001B787A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DC95B420101555001B787A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85DC95B820101555001B787A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DC95B920101555001B787A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DC95D220101556001B787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85DC95D320101556001B787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DC95D520101556001B787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trabajotrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85DC95D620101556001B787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trabajotrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		85DC95D820101556001B787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trabajotransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trabajotrans.app/trabajotrans";
+			};
+			name = Debug;
+		};
+		85DC95D920101556001B787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trabajotransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trabajotrans.app/trabajotrans";
+			};
+			name = Release;
+		};
+		85DC95DB20101556001B787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = trabajotransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = trabajotrans;
+			};
+			name = Debug;
+		};
+		85DC95DC20101556001B787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = trabajotransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dadd.trabajotransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = trabajotrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DC95A720101555001B787A /* Build configuration list for PBXProject "trabajotrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC95D220101556001B787A /* Debug */,
+				85DC95D320101556001B787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DC95D420101556001B787A /* Build configuration list for PBXNativeTarget "trabajotrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC95D520101556001B787A /* Debug */,
+				85DC95D620101556001B787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DC95D720101556001B787A /* Build configuration list for PBXNativeTarget "trabajotransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC95D820101556001B787A /* Debug */,
+				85DC95D920101556001B787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DC95DA20101556001B787A /* Build configuration list for PBXNativeTarget "trabajotransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC95DB20101556001B787A /* Debug */,
+				85DC95DC20101556001B787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DC95A420101555001B787A /* Project object */;
+}
